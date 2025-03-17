@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Learn React",
+      "description": "Learn React by building a project",
+      "column": "3",
+      "created_at": "2022-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Learn JS",
+      "description": "Learn React by building a project",
+      "column": "1",
+      "created_at": "2022-02-01T00:00:00.000Z"
+    }
+  ],
+  "columns": [
+    {
+      "id": "1",
+      "title": "To Do"
+    },
+    {
+      "id": "2",
+      "title": "In Progress"
+    },
+    {
+      "id": "3",
+      "title": "Done"
+    }
+  ]
+}
