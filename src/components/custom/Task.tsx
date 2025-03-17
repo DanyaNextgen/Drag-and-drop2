@@ -24,7 +24,7 @@ export const TaskCard: React.FC<TaskCardProps> = ({
 }) => {
 	const [className, setClassName] = useState("");
 
-	const onDragStart = (e: React.DragEvent<HTMLDivElement>) => {
+	const onDragStart = () => {
 		setClassName("bg-red-500");
 		setTimeout(() => {
 			setClassName("hidden");
